@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',verdana;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background: white;
+  margin-top: 200px;
+}
+.booking{
+  font-size: 30px;
+  font-weight: 1000;
+  color: midnightblue;
+  font-family: verdana;
+  padding: 100px;
+}
+
+.title {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: midnightblue;
+  font-family: verdana;
+  font-weight: bold;
+}
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 150%;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.dropdown {
+    height: 45px;
+  width: 73%;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+#errorbox {
+  color: red;
+  font-size: 1;
+}
+#birthday {
+    height: 45px;
+  width: 30%;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+form .button input{
+   height: 100%;
+   width: 20%;
+   border-radius: 50px;
+   border: crimson;
+   color: white;
+   font-size: 10px;
+   font-family: montserrat;
+   font-weight: 700;
+   letter-spacing: 1px;
+   cursor: pointer;
+   background: midnightblue;
+ }
